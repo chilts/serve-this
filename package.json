@@ -1,0 +1,31 @@
+{
+    "name" : "serve-this",
+    "description" : "A small static web server to hoist static files onto a web port.",
+    "version" : "0.1.0",
+    "private" : true,
+    "author" : {
+        "name" :"Andrew Chilton",
+        "email" :"chilts@appsattic.com",
+        "url" :"http://www.chilts.org/"
+    },
+    "homepage" : "https://github.com/appsattic/serve-this",
+    "dependencies" : {
+        "node-static" : ">= 0.5.9"
+    },
+    "main" : "serve-this.js",
+    "engines" : {
+        "node" : "*"
+    },
+    "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/appsattic/serve-this.git"
+    },
+   "bugs" : {
+        "url" : "http://github.com/appsattic/serve-this/issues",
+        "mail" : "chilts@appsattic.com"
+    },
+    "licenses" : [{
+        "type" : "MIT",
+        "url" : "http://github.com/appsattic/serve-this/raw/master/LICENSE"
+    }]
+}
