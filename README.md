@@ -10,7 +10,7 @@
                                                                                                   
 ```
 
-A small static web server to hoist static files onto a web port.
+A small static web server to hoist static files onto a HTTP port.
 
 ## Synopsis ##
 
@@ -22,5 +22,28 @@ $ ./serve-this.js path/to/your/htdocs
 ```
 
 Now go to http://localhost:8080/ to see your static site.
+
+## Usage ##
+
+```
+$ serve-this.js <path> <port>
+
+  path - the path to the static files (default: '.')
+  port - the port to listen on (default: '8080')
+```
+
+## Thanks ##
+
+Thanks to cloudhead for node-static.
+
+## Author ##
+
+Written by [Andrew Chilton](http://www.chilts.org/blog/)
+
+Copyright 2012 [AppsAttic](http://www.appsattic.com/)
+
+## License ##
+
+MIT. See LICENSE for more details.
 
 (Ends)

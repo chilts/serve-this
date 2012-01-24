@@ -1,6 +1,6 @@
 {
     "name" : "serve-this",
-    "description" : "A small static web server to hoist static files onto a web port.",
+    "description" : "A small static web server to hoist static files onto a HTTP port.",
     "version" : "0.1.0",
     "private" : true,
     "author" : {
