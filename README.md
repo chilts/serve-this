@@ -21,26 +21,28 @@ $ npm -d install
 $ ./serve-this.js path/to/your/htdocs
 ```
 
-Now go to http://localhost:8080/ to see your static site.
+Now go to [http://localhost:8080/](http://localhost:8080/) to see your static site.
 
 ## Usage ##
 
 ```
 $ serve-this.js <path> <port>
-
-  path - the path to the static files (default: '.')
-  port - the port to listen on (default: '8080')
 ```
+
+Where:
+
+* path - the path to the static files (default: '.')
+* port - the port to listen on (default: '8080')
 
 ## Thanks ##
 
-Thanks to cloudhead for node-static.
+Thanks to [cloudhead](https://github.com/cloudhead) for [node-static](https://github.com/cloudhead/node-static).
 
 ## Author ##
 
-Written by [Andrew Chilton](http://www.chilts.org/blog/)
+Written by [Andrew Chilton](http://www.chilts.org/blog/).
 
-Copyright 2012 [AppsAttic](http://www.appsattic.com/)
+Copyright 2012 [AppsAttic](http://www.appsattic.com/).
 
 ## License ##
 
