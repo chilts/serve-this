@@ -10,7 +10,7 @@
     },
     "homepage" : "https://github.com/appsattic/serve-this",
     "dependencies" : {
-        "node-static" : ">= 0.5.9"
+        "node-static" : ">= 0.6.0"
     },
     "main" : "serve-this.js",
     "engines" : {
